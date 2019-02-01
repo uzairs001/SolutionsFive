@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+
+h1 {
+    font-size: 36px;
+    color:white;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    color: #b4272d;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    color:#333;
+    font-weight: bold;
+}
+h4{
+    color:black;
+}
+.primary {
+    color: #b4272d;
+    }
+    
+.primary-bg {
+    
+    background-color: #b4272d;
+}
+
+
+    
+ul {
+    list-style: none;
+}
+    
+ul li {
+    display: inline-block;
+}
+a:hover {
+    text-decoration: none;
+    color:black;
+}
+
+.section-padding {
+    /* padding:56px 0; */
+    padding-top:30px;
+}
+.section-header{
+    text-align: center;
+    padding-bottom:50px;
+  }
+.white{
+   color: #fff;
+}
+.black{
+    color:black;
+}
+p{
+    color:black;
+}
+.center{
+    text-align:center;
+}
+.contact a{
+    font-weight: bold;
+    color:white;
+}
+.contact a:hover{
+    color:black;
+    text-decoration: none;
+    outline:0;
+}
+.contact a.focus{
+    outline:0;
+    text-decoration: none;
+}
+.contact a.active{
+    outline:0;
+    text-decoration: none;
+}
+header nav ul li a.active{
+    outline:0;
+    /* text-decoration: none; */
+    color:black;
+}
+.secondary-dark-blue-bg{
+    background-color:#555555;
+}
+.animation{
+    opacity:0;
+}
+.animated{
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -ms-animation-duration: 3s;
+}
+.red{
+    color: #b4272d;
+}

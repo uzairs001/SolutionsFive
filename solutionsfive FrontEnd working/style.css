@@ -1,0 +1,341 @@
+header {
+    position:absolute;
+    height:100px;
+    background:rgba(0,0,0,0);
+    width:100%;
+}
+header nav ul li a:focus {
+    color: black;
+}
+header > a {
+   padding-left:60px;
+  
+    }
+header nav{
+    float:right;
+    padding-right:200px;
+    line-height:100px;
+}
+
+header nav ul li{
+    padding-left:30px;  
+}
+header nav ul li a{
+    color:white;
+    font-weight:bold;
+}
+header nav ul li a:hover{
+    color:black;
+}
+/*slider*/
+.slider{
+    padding-top:150px;
+    text-align: center;
+    background: url(img/header-back.jpg);
+    height:400px;
+    background-size:100% 100%;
+}
+.slider-about{
+    padding-top:150px;
+    text-align: center;
+    background: url(img/about-final.jpg);
+    height:700px;
+    background-size:100% 100%;
+}
+.slider-contactus{
+    padding-top:150px;
+    text-align: center;
+    background: url(img/contact-banner.jpg);
+    height:700px;
+    background-size:100% 100%;
+    font-weight:bold;
+}
+.slider-contactus h1{
+    margin-top:250px;
+}
+.slider p {
+margin-top:40px;
+}
+.slider p a {
+
+    background-color: #b4272d;
+    padding:10px 20px;
+    color:white;
+}
+
+/*welcome section*/
+.row .col-sm-4,.welcome .row .col-sm-3{
+    text-align:center;
+    position: static;
+}
+.hov1{
+    background: url(img/welcome/1.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 50px;
+    margin: 0 auto;
+cursor: pointer;
+    }
+.hov1:hover{
+background: url(img/welcome/11.png);
+background-repeat: no-repeat;
+}
+.hov2{
+    background: url(img/welcome/2.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 50px;
+    margin: 0 auto;
+cursor: pointer;
+    }
+.hov2:hover{
+background: url(img/welcome/22.png);
+background-repeat: no-repeat;
+}
+.hov3{
+    background: url(img/welcome/3.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 50px;
+    margin: 0 auto;
+cursor: pointer;
+    }
+.hov3:hover{
+background: url(img/welcome/33.png);
+background-repeat: no-repeat;
+}
+.hov4{
+    background: url(img/welcome/4.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 50px;
+    margin: 0 auto;
+cursor: pointer;
+    }
+.hov4:hover{
+background: url(img/welcome/44.png);
+background-repeat: no-repeat;
+}
+.hov5{
+    background: url(img/welcome/5.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 50px;
+    margin: 0 auto;
+cursor: pointer;
+    }
+.hov5:hover{
+background: url(img/welcome/55.png);
+background-repeat: no-repeat;
+}
+.service{
+    background: url(img/service-banner.jpg);
+    background-size:100% 100%; 
+    background-attachment: fixed;
+}
+
+.service .container{
+    padding-bottom:80px;
+
+}
+
+
+.work {
+    width:100%;
+    background: url(img/service-banner.jpg);
+    background-size:100% 100%; 
+    background-attachment: fixed;
+    padding-bottom: 40px;
+}
+
+
+.client h2{
+    color:#555;
+}
+#hovnxt1{
+    background:url(img/clients/army-b.png);
+    background-repeat: no-repeat;
+    width:200px;
+    height:100px;
+    margin: 0 auto;
+    background-size: contain;
+    
+}
+ #hovnxt1:hover{
+    background: url(img/clients/army.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:200px;
+    height:100px;
+    
+}
+#hovnxt2{
+    background:url(img/clients/bahria-b.png);
+    background-repeat: no-repeat;
+    width:200px;
+    height:100px;
+    margin: 0 auto;
+    background-size: contain;
+    
+    
+}
+ #hovnxt2:hover{
+    background: url(img/clients/bahria.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:200px;
+    height:100px;
+    
+   
+}
+#hovnxt3{
+    background:url(img/clients/careem-b.png);
+    background-repeat: no-repeat;
+    width:200px;
+    height:100px;
+    margin: 0 auto;
+    background-size: contain;
+    
+}
+ #hovnxt3:hover{
+    background: url(img/clients/careem.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:200px;
+    height:100px;
+    
+}
+#hovnxt4{
+    background:url(img/clients/dha-b.png);
+    background-repeat: no-repeat;
+    width:200px;
+    height:100px;
+    margin: 0 auto;
+    background-size: contain;
+    
+}
+ #hovnxt4:hover{
+    background: url(img/clients/dha.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:200px;
+    height:100px;
+    
+}
+#hovnxt5{
+    background:url(img/clients/haier-b.png);
+    background-repeat: no-repeat;
+    width:200px;
+    height:100px;
+    margin: 0 auto;
+    background-size: contain;
+    
+}
+ #hovnxt5:hover{
+    background: url(img/clients/haier.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:200px;
+    height:100px;
+    
+}
+#hovnxt6{
+    background:url(img/clients/lenovo-b.png);
+    background-repeat: no-repeat;
+    width:200px;
+    height:100px;
+    margin: 0 auto;
+    background-size: contain;
+    
+}
+ #hovnxt6:hover{
+    background: url(img/clients/lenovo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:200px;
+    height:100px;
+    
+}
+#hovnxt7{
+    background:url(img/clients/pel-b.png);
+    background-repeat: no-repeat;
+    width:200px;
+    height:100px;
+    margin: 0 auto;
+    background-size: contain;
+    
+}
+ #hovnxt7:hover{
+    background: url(img/clients/pel.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:200px;
+    height:100px;
+    
+}
+#hovnxt8{
+    background:url(img/clients/pitb-b.png);
+    background-repeat: no-repeat;
+    width:200px;
+    height:100px;
+    margin: 0 auto;
+    background-size: contain;
+    
+}
+ #hovnxt8:hover{
+    background: url(img/clients/pitb.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:200px;
+    height:100px;
+    
+}
+#hovnxt9{
+    background:url(img/clients/punjab-b.png);
+    background-repeat: no-repeat;
+    width:200px;
+    height:100px;
+    margin: 0 auto;
+    background-size: contain;
+    
+}
+ #hovnxt9:hover{
+    background: url(img/clients/punjab.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:200px;
+    height:100px;
+    
+}
+#hovnxt10{
+    background:url(img/clients/samsung-b.png);
+    background-repeat: no-repeat;
+    width:200px;
+    height:100px;
+    margin: 0 auto;
+    background-size: contain;
+    
+}
+ #hovnxt10:hover{
+    background: url(img/clients/samsung.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:200px;
+    height:100px;
+    
+}
+
+
+
+.copyright p{
+    text-align:center;
+    font-weight:bold;
+    color:#555;
+    background-color:white;;;
+    margin-top: -30px;
+    padding:12px;
+    line-height:12px;
+}
+.about{
+    padding:0 120px;
+}

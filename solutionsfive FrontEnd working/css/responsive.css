@@ -1,0 +1,216 @@
+@media screen and (min-width:686px){
+    .committed{
+        background:url(../img/committed.jpg);
+        background-size:100% 100%;
+    }
+    .committed h2{
+        padding-top:100px;
+        padding-bottom:30px;
+        padding-left:80px;
+        width:40%;
+    }
+    .committed p{
+        padding-left:80px;
+        padding-bottom:100px;
+        margin-bottom:0;
+        width:40%;
+    }
+}
+.slicknav_menu {
+    display:none;
+}
+.service .container  #i1{
+    height:130px;
+    width:130px;
+}
+
+
+.work img{
+    opacity:1;
+    float:right;
+    margin-top:-40px;
+    padding-right:100px;
+}
+.work h1,.work p{
+    padding-left:100px;
+}
+.worklist{
+    width:50%;
+}
+.worklist .head{
+    font-weight: bold;
+}
+.contact {
+    background: url(../img/contact-bg.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* position:absolute; */
+    width:100%;
+    height:600px;
+}
+
+.contact .form{
+    float:right;
+    width:50%;
+    padding-top:120px;
+}
+.contact .form .col-md-3{
+    width:50%;
+}
+.contact .form .col-md-6{
+width:100%;
+}
+.contact .form input{
+    padding:10px 20px;
+}
+.contact .form a{
+    position:absolute;
+    margin:20px;
+    background-color: #b4272c;
+    padding:10px 20px;
+}
+.contact .form .container{
+    width:100%;
+}
+.contact .form input{
+    background-color: rgba(0,0,0,0);
+    width:100%;
+}
+#msgarea {
+    background-color: rgba(0,0,0,0);
+    width:100%;
+}
+.contact .address{
+    float:left;
+    padding-left:60px;
+    padding-top:120px;
+}
+
+.contact .address p{
+    color:#555;
+    font-weight:bold;
+}
+@media screen and (max-width:992px){
+       
+    .slicknav_menu {
+        display:block;
+        position:absolute;
+        right:0;
+        z-index:1000;
+    }
+    header nav {
+          display:none;
+    }
+    #myLogo{
+        width:100px;
+        height:60px;
+    }
+    .service .container  #i1{
+        width:80px;
+        height:80px; 
+    }
+    .work img{
+        display:none;
+        float:right;
+        margin-top:-92px;
+        padding-right:100px;
+    }
+    .work h1,.work p{
+        text-align:center;
+        padding-left:0;
+    }
+    .worklist{
+        text-align:center;
+        width:100%;
+    }
+    .contact {
+        height:700px;
+    }
+    .contact .form input{
+      
+        width:150%;
+    }
+    .contact .form .col-md-3{
+        width:63%;
+    }
+    #msgarea {
+       
+        width:90%;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .service .container  #i1{
+        width:160px;
+        height:160px; 
+        padding:20px;
+    }
+}
+
+@media screen and (max-width:685px){
+
+    .committed{
+        background-color:#011422;
+        background-size:100% 100%
+        
+    }
+    .committed h2{
+        width:100%;
+        text-align:center;
+        padding-bottom:20px;
+     }
+     .committed p{
+         width:100%;
+         text-align:center;
+         padding-bottom:60px;
+         margin: 0px;
+     }
+    .contact .address{
+        float:none;
+        width:100%;
+        text-align: center;
+        padding-left:0px;
+        padding-top:0px;
+    }
+    .contact {
+       
+        width:100%; 
+        height:880px;
+       
+    }
+    .contact .form{
+        float:none;
+        width:100%;
+        text-align: center;
+        padding-left:0px;
+        padding-top:10px;
+    }
+    .contact .form .col-md-3{
+        margin:0 auto;
+        width:auto;
+    }
+    .contact .form input{
+        background-color: rgba(0,0,0,0);
+        width:100%;
+        text-align: center;  
+    }
+    #msgarea {
+        background-color: rgba(0,0,0,0);
+        width:100%;
+        text-align: center;
+    }
+    #btnSubmit{
+        text-align: center;
+    }
+    .contact .form a{
+        position:relative;
+        top:20px;
+
+       
+    }
+    
+    
+   
+   
+}
